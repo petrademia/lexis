@@ -4,6 +4,12 @@
 
 Full-text inverted index and search engine with BM25 ranking, compressed posting lists, and phrase query support.
 
+## Languages (locked)
+
+**Java**
+
+Canonical matrix: [`../SYSTEMS_LANGUAGE_MATRIX.md`](../SYSTEMS_LANGUAGE_MATRIX.md)
+
 ## Goals
 
 - Tokenization, stemming, stop-word removal
@@ -13,4 +19,4 @@ Full-text inverted index and search engine with BM25 ranking, compressed posting
 
 ## Status
 
-Scaffold only.
+Scaffold only (harness not built yet).
