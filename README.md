@@ -6,7 +6,7 @@ Java BM25 search learning harness. **You implement** tokenize → inverted index
 
 ## Languages (locked)
 
-**Java** — matrix: [`../SYSTEMS_LANGUAGE_MATRIX.md`](../SYSTEMS_LANGUAGE_MATRIX.md)
+**Java**
 
 ## Specs
 
