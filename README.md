@@ -2,21 +2,28 @@
 
 **Lexical Indexing & Scoring**
 
-Full-text inverted index and search engine with BM25 ranking, compressed posting lists, and phrase query support.
+Java BM25 search learning harness. **You implement** tokenize → inverted index → BM25.
 
 ## Languages (locked)
 
-**Java**
+**Java** — matrix: [`../SYSTEMS_LANGUAGE_MATRIX.md`](../SYSTEMS_LANGUAGE_MATRIX.md)
 
-Canonical matrix: [`../SYSTEMS_LANGUAGE_MATRIX.md`](../SYSTEMS_LANGUAGE_MATRIX.md)
+## Specs
 
-## Goals
+- [specs/v0_tokenize.md](specs/v0_tokenize.md)
+- [specs/v1_index.md](specs/v1_index.md)
+- [specs/v2_bm25.md](specs/v2_bm25.md)
 
-- Tokenization, stemming, stop-word removal
-- Inverted index with Varbyte / FoR-style compression
-- BM25 scoring and positional indexes
-- Benchmarks for ingest rate and query latency
+Progress: [docs/PROGRESS.md](docs/PROGRESS.md)
+
+## Quick start
+
+```bash
+make expect-fail
+# edit src/main/java/com/lexis/...
+make test
+```
 
 ## Status
 
-Scaffold only (harness not built yet).
+Harness scaffold. No real search engine yet.
